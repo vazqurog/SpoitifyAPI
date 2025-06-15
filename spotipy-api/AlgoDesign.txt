@@ -1,0 +1,27 @@
+- - - SPOTIFY ALGO DESIGN - - - 
+
+* Access X types of user listening history (Short_term, recently played) to determine a score
+for each artist and genre. Use that score to match similar songs/artist
+to make genre based playlist.
+
+        - First data set will be SHORT_TERM listening history
+
+            - This has since changed as i now figured how to access the users entire library data. Short SHORT_TERM
+            listening histroy wll still be used to determine the proper sonfs that should be reccomended to the user
+        - I will start off by accessing that datapoint and pulling each artist genres
+        - Based off that data i will then cycle through the genres and grab the most popular one based
+        off a genre score. 
+        - Make a playlsit using reccomdations to generate artist data
+            - cycle through the recoomdations to make sure that tracks arent already in user playlist
+            - Depending on the songs popularity to the user, some known songs may be added to keep a sense
+            of familularity in the playlist
+        
+* For few genres (emo,shoegaze type genres), underground artist (or lesser known) will be added in
+by myself to introduce a better scope to the genre and to balance out soley main stream being added.
+Ofcourse if the user data contains underground already then thats what will be added in, but idk ill
+figure that shit out.
+
+* Rotating playlist pictures that match the "vibe" of each genre. 
+for starters ill hardcode in my own pictures, but AI genereated images
+wil be implemented.
+
